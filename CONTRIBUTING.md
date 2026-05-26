@@ -1,21 +1,20 @@
-# Guia de contribuição
+﻿# Contributing
 
-## Como contribuir
+Obrigado por contribuir com este projeto.
 
-1. Fork o repositório
-2. Crie branch: `git checkout -b feature/minha-feature`
-3. Commit com mensagens claras em português ou inglês
-4. Abra Pull Request descrevendo mudança e motivação
+## Fluxo
 
-## Padrões de código
+1. Fork e branch: `git checkout -b feature/minha-mudanca`
+2. Commits convencionais: `feat:`, `fix:`, `docs:`, `perf:`
+3. Testes: execute a suÃ­te do README antes do PR
+4. Abra PR com descriÃ§Ã£o, screenshots (se UI) e checklist
 
-- ESLint + Prettier no frontend
-- Testes para lógica de projeção financeira (`backend/tests/`)
+## PadrÃµes
 
-## Issues
+- CÃ³digo autoexplicativo; comentÃ¡rios sÃ³ para invariantes nÃ£o Ã³bvios
+- Sem segredos em commits (use `.env` local)
+- Mantenha benchmarks reproduzÃ­veis com flags documentadas
 
-Use templates para bugs e features. Inclua passos para reproduzir.
+## Code of Conduct
 
-## Código de conduta
-
-Seja respeitoso. Discussões técnicas focadas no problema.
+Comportamento respeitoso e foco tÃ©cnico nas revisÃµes.
